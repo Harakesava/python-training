@@ -1,4 +1,4 @@
-# version 1
+# version 1 fizzbuzz problem
 x=int(input('enter the number:'))
 for i in range(1,x+1):
     

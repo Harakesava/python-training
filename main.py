@@ -47,13 +47,22 @@ for i in range (x):
         print (j,end=" " )
     print()
 
-#pyramidal pattern
+#pyramidal pattern 1
 x=int(input("enter a number:"))
 for i in range (x):
     for j in range (x-i-1):
         print (" ",end='')
     for j in range (i+1):
         print ("*", end=" ")
+    print()
+
+#pyramidal pattern 2
+x=int(input("enter a number:"))
+for i in range (x):
+    for j in range (x-i-1):
+        print (" ",end='')
+    for j in range (2*i+1):
+        print ("*", end="")
     print()
 
 #diamond pattern
